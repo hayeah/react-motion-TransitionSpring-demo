@@ -1,0 +1,47 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+   font-weight: 300;
+}
+
+.container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #000445;
+
+  /*background: rgba(255,0,0,0.3);*/
+}
+
+.letter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  box-sizing: border-box;
+  margin: 5px;
+  height: 50px;
+  width: 50px;
+
+  -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+  user-select: none;          /* Likely future */
+
+  background: #4D4F7D;
+  border-radius: 50px;
+
+  color: #fff;
+
+}
