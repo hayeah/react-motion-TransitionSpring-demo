@@ -121,7 +121,7 @@ var Demo = _react2["default"].createClass({
       function (values) {
         return _react2["default"].createElement(
           "div",
-          { className: "container" },
+          { className: "letters" },
           Object.keys(values).map(function (letter) {
             var _values$letter = values[letter];
             var scale = _values$letter.scale;
@@ -159,4 +159,15 @@ function isAlphaNumeric(keyCode) {
   return 48 <= keyCode && keyCode <= 57 || 65 <= keyCode && keyCode <= 90;
 }
 
-_react2["default"].render(_react2["default"].createElement(Demo, null), document.querySelector('#content'));
+var app = _react2["default"].createElement(
+  "div",
+  { className: "container" },
+  _react2["default"].createElement(Demo, null),
+  _react2["default"].createElement(
+    "h3",
+    { className: "help" },
+    "press any key"
+  )
+);
+
+_react2["default"].render(app, document.querySelector('#content'));
