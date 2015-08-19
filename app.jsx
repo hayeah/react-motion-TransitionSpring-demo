@@ -105,7 +105,7 @@ let Demo = React.createClass({
         willEnter={this.willEnter}
         willLeave={this.willLeave}>
         {values =>
-          <div className="container">
+          <div className="letters">
             {Object.keys(values).map(letter => {
               const {scale,width,margin} = values[letter];
               const widthValue = Math.ceil(width.val-0.5);
@@ -140,4 +140,11 @@ function isAlphaNumeric(keyCode) {
   return (48 <= keyCode && keyCode <= 57) || (65 <= keyCode && keyCode <= 90);
 }
 
-React.render(<Demo/>, document.querySelector('#content'));
+const app = (
+  <div className="container">
+    <Demo/>
+    <h3 className="help">press any key</h3>
+  </div>
+);
+
+React.render(app, document.querySelector('#content'));

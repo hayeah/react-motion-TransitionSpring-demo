@@ -9,19 +9,30 @@ body {
 }
 
 .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
 
+  background-color: #000445;
+}
+
+.help {
+  color: #4D4F7D;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.letters {
   display: flex;
   justify-content: center;
   align-items: center;
-
-  background-color: #000445;
-
-  /*background: rgba(255,0,0,0.3);*/
 }
 
 .letter {
