@@ -6,6 +6,16 @@ body {
 body {
    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
    font-weight: 300;
+   color: #4D4F7D;
+}
+
+a {
+  color: #4D4F7D;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #A8A9D1;
 }
 
 .container {
@@ -24,7 +34,6 @@ body {
 }
 
 .help {
-  color: #4D4F7D;
   font-weight: 600;
   font-size: 18px;
 }
@@ -33,6 +42,15 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.colophon {
+  font-size: 14px;
+}
+
+.colophon a {
+  font-size: 14px;
+  margin-right: 0.5em;
 }
 
 .letter {

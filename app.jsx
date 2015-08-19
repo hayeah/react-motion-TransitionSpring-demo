@@ -144,6 +144,10 @@ const app = (
   <div className="container">
     <Demo/>
     <h3 className="help">press any key</h3>
+    <h3 className="colophon">
+      made with <a href="https://github.com/chenglou/react-motion">react motion.</a>
+      <a href="https://github.com/hayeah/react-motion-TransitionSpring-demo/blob/master/app.jsx">source.</a>
+    </h3>
   </div>
 );
 

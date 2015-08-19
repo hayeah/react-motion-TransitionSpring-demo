@@ -167,6 +167,21 @@ var app = _react2["default"].createElement(
     "h3",
     { className: "help" },
     "press any key"
+  ),
+  _react2["default"].createElement(
+    "h3",
+    { className: "colophon" },
+    "made with ",
+    _react2["default"].createElement(
+      "a",
+      { href: "https://github.com/chenglou/react-motion" },
+      "react motion."
+    ),
+    _react2["default"].createElement(
+      "a",
+      { href: "https://github.com/hayeah/react-motion-TransitionSpring-demo/blob/master/app.jsx" },
+      "source."
+    )
   )
 );
 
